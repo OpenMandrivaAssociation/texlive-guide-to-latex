@@ -1,5 +1,11 @@
+# revision 15878
+# category Package
+# catalog-ctan undef
+# catalog-date undef
+# catalog-license undef
+# catalog-version undef
 Name:		texlive-guide-to-latex
-Version:	20111102
+Version:	20111103
 Release:	1
 Summary:	TeXLive guide-to-latex package
 Group:		Publishing
@@ -122,6 +128,7 @@ TeXLive guide-to-latex package.
 %doc %{_texmfdistdir}/doc/latex/guide-to-latex/palette.tex
 %doc %{_texmfdistdir}/doc/latex/guide-to-latex/seminar.con
 %doc %{_texmfdistdir}/doc/latex/guide-to-latex/sempdftx.sty
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -132,3 +139,5 @@ TeXLive guide-to-latex package.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
