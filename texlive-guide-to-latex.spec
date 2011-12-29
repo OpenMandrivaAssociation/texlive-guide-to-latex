@@ -16,8 +16,6 @@ Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/guide-to-latex.do
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
-Conflicts:	texlive-texmf <= 20110705-3
-Conflicts:	texlive-doc <= 20110705-3
 
 %description
 TeXLive guide-to-latex package.
@@ -128,7 +126,6 @@ TeXLive guide-to-latex package.
 %doc %{_texmfdistdir}/doc/latex/guide-to-latex/palette.tex
 %doc %{_texmfdistdir}/doc/latex/guide-to-latex/seminar.con
 %doc %{_texmfdistdir}/doc/latex/guide-to-latex/sempdftx.sty
-%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -139,5 +136,3 @@ TeXLive guide-to-latex package.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar doc %{buildroot}%{_texmfdistdir}
-mkdir -p %{buildroot}%{_tlpkgobjdir}
-cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
