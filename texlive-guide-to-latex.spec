@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-guide-to-latex
 Version:	20111103
-Release:	2
+Release:	3
 Summary:	TeXLive guide-to-latex package
 Group:		Publishing
 URL:		http://tug.org/texlive
