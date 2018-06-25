@@ -5,7 +5,7 @@
 # catalog-license undef
 # catalog-version undef
 Name:		texlive-guide-to-latex
-Version:	20171108
+Version:	20180303
 Release:	1
 Summary:	TeXLive guide-to-latex package
 Group:		Publishing
