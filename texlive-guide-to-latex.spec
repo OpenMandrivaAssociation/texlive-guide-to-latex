@@ -1,6 +1,6 @@
 Name:		texlive-guide-to-latex
 Version:	45712
-Release:	1
+Release:	2
 Summary:	TeXLive guide-to-latex package
 Group:		Publishing
 URL:		http://tug.org/texlive
