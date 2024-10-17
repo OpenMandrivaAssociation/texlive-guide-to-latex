@@ -3,7 +3,7 @@ Version:	45712
 Release:	2
 Summary:	TeXLive guide-to-latex package
 Group:		Publishing
-URL:		http://tug.org/texlive
+URL:		https://tug.org/texlive
 License:	http://www.tug.org/texlive/LICENSE.TL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/guide-to-latex.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/guide-to-latex.doc.r%{version}.tar.xz
